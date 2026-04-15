@@ -1,0 +1,20 @@
+packages:
+  "framer-motion": "Smooth layout transitions and animations for the dialer and dashboard"
+  "recharts": "Beautiful data visualization for the analytics dashboard"
+  "date-fns": "Easy and reliable date and time formatting"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility to safely merge Tailwind CSS classes"
+  "@workspace/api-client-react": "Generated API hooks (monorepo dependency)"
+
+images:
+  - path: "artifacts/dialer/public/images/auth-bg.png"
+    description: "Dark, moody, abstract gradient mesh background in deep zinc, slate, and vibrant electric blue, suitable for a premium enterprise login screen."
+    aspect_ratio: "16:9"
+  - path: "artifacts/dialer/public/images/logo-icon.png"
+    description: "A minimal, modern, abstract geometric logo icon representing an insurance shield merged with a soundwave or communication signal. Vibrant blue on transparent background."
+    aspect_ratio: "1:1"
+
+notes:
+  - The application is a React SPA running in a Vite environment.
+  - JWT auth is handled via HTTP-only cookies on the backend.
+  - Tailwind v4 CSS configuration is directly implemented in index.css.

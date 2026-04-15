@@ -8,7 +8,7 @@ from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 import uvicorn
 from dotenv import load_dotenv
-from server.personas.dorothy import DOROTHY_PERSONA, ANCHOR_WHISPER
+from server.personas.dorothy import DOROTHY_SESSION_CONFIG, DOROTHY_ANCHOR_CONFIG, ANCHOR_WHISPER, OPENING_PROMPT
 
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
